@@ -21,7 +21,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/portfolio/conceptos")
-@CrossOrigin(origins = "https://portfolio-1967f.firebaseapp.com/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class ConceptoController {
 	
 

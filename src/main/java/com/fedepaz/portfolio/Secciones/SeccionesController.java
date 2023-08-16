@@ -19,7 +19,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
 @RequestMapping("/portfolio/secciones")
-@CrossOrigin(origins = "https://portfolio-1967f.firebaseapp.com/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class SeccionesController {
 
 	@Autowired
